@@ -11,6 +11,8 @@
 
 It is a Backend API Project for a Company Staff Portal that manages the Staff Basic Detail of a company that can search, edit and update, disable and enable a staff
 
+The Front End for the Project is Angular and can be found at https://github.com/ayomideesam/Ayo-upl-staff-portal-angular.
+
 
 ## About Laravel
 
