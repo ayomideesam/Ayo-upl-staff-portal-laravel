@@ -13,6 +13,10 @@ It is a Backend API Project for a Company Staff Portal that manages the Staff Ba
 
 The Front End for the Project is Angular and can be found at https://github.com/ayomideesam/Ayo-upl-staff-portal-angular.
 
+* Run php artisan serve to serve the application for a dev server. 
+* Run php artisan serve --host=anyy ip --port=8000 to change ip and port
+* Navigate to http://127.0.0.1:8000/api/getStaffs to see all the Staffs created. The app will automatically reload if you change any of the source files.
+
 
 ## About Laravel
 
