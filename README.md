@@ -11,7 +11,7 @@
 
 It is a Backend API Project for a Company Staff Portal that manages the Staff Basic Detail of a company that can search, edit and update, disable and enable a staff
 
-The Front End for the Project is Angular and can be found at https://github.com/ayomideesam/Ayo-upl-staff-portal-angular.
+The Front End for the Project is Angular v8 and can be found at https://github.com/ayomideesam/Ayo-upl-staff-portal-angular.
 
 * Run php artisan serve to serve the application for a dev server. 
 * Run php artisan serve --host=anyy ip --port=8000 to change ip and port
