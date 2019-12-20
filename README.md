@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## About My Laravel Project
+
+It is a Backend API Project for a Company Staff Portal that manages the Staff Basic Detail of a company that can search, edit and update, disable and enable a staff
+
+The Front End for the Project is Angular v8 and can be found at https://github.com/ayomideesam/Ayo-upl-staff-portal-angular.
+
+* Run php artisan serve to serve the application for a dev server. 
+* Run php artisan serve --host=anyy ip --port=8000 to change ip and port
+* Navigate to http://127.0.0.1:8000/api/getStaffs to see all the Staffs created. The app will automatically reload if you change any of the source files.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
