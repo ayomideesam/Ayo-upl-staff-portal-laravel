@@ -1,0 +1,4 @@
+[2019-12-03 11:13:05] local.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 60 seconds exceeded at C:\\wamp64\\www\\Ayo-upl-staff-portal-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 {main}
+"} 

@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa503b104f700e4337a4bf209a56bc8a",
+    "content-hash": "25ee93a3c7098e4061b5c8cbcba006ef",
     "packages": [
+        {
+            "name": "codecasts/laravel-jwt",
+            "version": "0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codecasts/laravel-jwt.git",
+                "reference": "015b94241a51ed3291ff6329ff1d929c5e73c704"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codecasts/laravel-jwt/zipball/015b94241a51ed3291ff6329ff1d929c5e73c704",
+                "reference": "015b94241a51ed3291ff6329ff1d929c5e73c704",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "illuminate/support": ">=5.4.0",
+                "lcobucci/jwt": "^3.2",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.9",
+                "orchestra/testbench": "^3.4",
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codecasts\\Auth\\JWT\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codecasts\\Auth\\JWT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Diego Hernandes",
+                    "email": "diego@hernandev.com"
+                }
+            ],
+            "description": "Dead simple JWT Auth Provider for Laravel 5.4+",
+            "time": "2019-11-21T11:11:21+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -676,6 +727,61 @@
                 "psysh"
             ],
             "time": "2019-08-07T15:10:45+00:00"
+        },
+        {
+            "name": "lcobucci/jwt",
+            "version": "3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/jwt.git",
+                "reference": "a11ec5f4b4d75d1fcd04e133dede4c317aac9e18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
+                "reference": "a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.5",
+                "phpmd/phpmd": "~2.2",
+                "phpunit/php-invoker": "~1.1",
+                "phpunit/phpunit": "^5.7 || ^7.3",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lcobucci\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+            "keywords": [
+                "JWS",
+                "jwt"
+            ],
+            "time": "2019-05-24T18:30:49+00:00"
         },
         {
             "name": "league/flysystem",
