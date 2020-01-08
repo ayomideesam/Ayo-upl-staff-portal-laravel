@@ -70,7 +70,7 @@ class StaffApiController extends Controller
     public function registerStaff(Request $request)
     {
         $users = User::query()->create([
-            'password' => Hash::make( $request->input('password')), // bcrypt('password')
+            'password' => /*Hash::make( $request->input('password')),*/  bcrypt($request->input('password')),
             'email' => $request->input('email'),
             'name' => $request->input('name')
         ]);
